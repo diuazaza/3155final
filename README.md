@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     users ||--o{ projects : "creates / posts"
     users ||--o{ learning_requests : "sends (as sender)"
@@ -117,3 +118,4 @@ erDiagram
         string status
         datetime created_at
     }
+```
