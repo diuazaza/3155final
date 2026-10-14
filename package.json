@@ -1,0 +1,39 @@
+{
+  "name": "idealoop",
+  "version": "1.0.0",
+  "description": "IdeaLoop is a web-based platform for creative individuals to share and discover projects across multiple media (coding, 3D modeling, digital art, writing, music, crafts), request skill mentorship, and find project collaborators.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:migrate": "tsx src/db/migrate.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diuazaza/IdeaLoop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/diuazaza/IdeaLoop/issues"
+  },
+  "homepage": "https://github.com/diuazaza/IdeaLoop#readme",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "kysely": "^0.29.6",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
